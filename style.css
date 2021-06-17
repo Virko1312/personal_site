@@ -1,0 +1,63 @@
+html {
+    height: 100%;
+}
+body {
+    font-family: Verdana, sans-serif;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(to bottom, #232526, #414345);
+}
+.header .main-header {
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.list {
+    text-align: center;
+}
+.list-item {
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+}
+.list-item:hover {
+    cursor: pointer;
+}
+.list-item_1, .list-item_2, .list-item_3 {
+    color: white;
+    text-decoration: none;
+}
+p {
+    margin: 10px;
+    color: white;
+}
+.middle-section .image img {
+    margin-left: 150px;
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.middle-section {
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-right: auto;
+    display: flex;
+}
+.middle-section .paragraf {
+    font-size: 18px;
+    padding-left: 400px;
+    justify-content: center;
+    width: 500px;
+}
+.sm-logo {
+    height: 50px;
+    width: 50px;
+}
+.img_list {
+    list-style-type: none;
+}
