@@ -23,6 +23,7 @@ body {
     text-decoration: none;
     list-style: none;
     padding: 10px;
+    color: white;
 }
 .list-item:hover {
     cursor: pointer;
@@ -60,4 +61,20 @@ p {
 }
 .img_list {
     list-style-type: none;
+}
+.contact-paragraf {
+    color: white;
+}
+.main-header-projects {
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-left: 375px;
+}
+.projects-info {
+    margin-top: 200px;
+    text-align: center;
+}
+.projects-info-item {
+    color: white;
 }
