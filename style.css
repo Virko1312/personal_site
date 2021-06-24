@@ -38,17 +38,18 @@ body {
 
 /*CSS for index page*/
 
+.flex-container {
+    display: flex;
+}
 .image {
     margin-top: 150px;
-    padding: 25px;
-    float: left;
+    margin-right: 50px;
+    margin-left: 25px;
     width: 200px;
     border-radius: 50%;
 }
 .index-paragraph {
     margin-top: 150px;
-    width: 700px;
-    float: right;
     color: white;
 }
 
