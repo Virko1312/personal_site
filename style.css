@@ -3,53 +3,67 @@ html {
 }
 body {
     margin: 0;
-    font-family: Verdana, sans-serif;
+    font-family: Calibri, sans-serif;
     height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background: linear-gradient(to bottom, #232526, #414345);
 }
 .header {
+    background-color: white;
+    text-align: center;
+}
+.header-1 {
     text-align: center;
 }
 .main-header {
+    margin: 0;
+    padding: 20px;
     font-weight: bold;
+    font-size: 50px;
+    color: black;
+}
+.main-header-1 {
     font-size: 50px;
     color: white;
 }
 .list {
-    padding: 0;
+    background-color: white;
+    padding: 25px;
     text-align: center;
 }
 .list-item {
     display: inline;
     text-decoration: none;
     list-style: none;
-    padding: 10px;
+    padding: 30px;
     color: white;
 }
 .list-item:hover {
     cursor: pointer;
 }
 .list-item_1, .list-item_2, .list-item_3 {
-    color: white;
+    font-size: 25px;
+    color: black;
     text-decoration: none;
 }
-
+.list-item_1:hover, .list-item_2:hover, .list-item_3:hover {
+    color: darkgray;
+}
 /*CSS for index page*/
 
 .flex-container {
     display: flex;
+    margin-top: 50px;
 }
 .image {
-    margin-top: 150px;
     margin-right: 50px;
     margin-left: 25px;
     width: 200px;
     border-radius: 50%;
 }
 .index-paragraph {
-    margin-top: 150px;
+    font-size: 19px;
     color: white;
 }
 
@@ -62,7 +76,7 @@ body {
     margin-left: 375px;
 }
 .projects-info {
-    margin-top: 200px;
+    margin-top: 50px;
     text-align: center;
 }
 .projects-info-item {
@@ -78,6 +92,7 @@ body {
     margin-right: 10px;
 }
 .contact-paragraph {
+    font-size: 19px;
     text-align: center;
     color: white;
     margin: 0;
