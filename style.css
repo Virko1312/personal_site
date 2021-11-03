@@ -46,9 +46,10 @@ body {
     font-size: 25px;
     color: black;
     text-decoration: none;
+    transition: border-bottom 0.3s;
 }
 .list-item_1:hover, .list-item_2:hover, .list-item_3:hover {
-    color: darkgray;
+    border-bottom: 4px solid forestgreen;
 }
 /*CSS for index page*/
 
@@ -79,9 +80,19 @@ body {
     margin-top: 50px;
     text-align: center;
 }
-.projects-info-item {
+.projects-info-item:link,
+.projects-info-item:visited {
+    text-decoration: none;
+    font-size: 26px;
     color: white;
 }
+.projects-info-item:active,
+.projects-info-item:hover {
+    font-size: 26px;
+    color: forestgreen;
+    transition: .3s;
+}
+
 
 /*CSS for contact page*/
 
@@ -103,10 +114,16 @@ body {
     padding: 0;
 }
 .sm-logo {
-    margin: 10px;
-    height: 75px;
-    width: 75px;
+    font-size: 100px;
+    color: black;
 }
+.sm-logo:active,
+.sm-logo:hover {
+    transition: .3s;
+    color: forestgreen;
+    cursor: pointer;
+}
+
 .img_list {
     list-style-type: none;
 }
