@@ -46,10 +46,12 @@ body {
     font-size: 25px;
     color: black;
     text-decoration: none;
-    transition: border-bottom 0.3s;
+    transition: border-bottom .3s;
 }
 .list-item_1:hover, .list-item_2:hover, .list-item_3:hover {
-    border-bottom: 4px solid forestgreen;
+    transition: .7s;
+    color: forestgreen;
+    border-bottom: 3px solid forestgreen;
 }
 /*CSS for index page*/
 
@@ -58,14 +60,22 @@ body {
     margin-top: 50px;
 }
 .image {
-    margin-right: 50px;
-    margin-left: 25px;
+    margin: 0 50px 25px 50px;
+    height: 200px;
     width: 200px;
     border-radius: 50%;
 }
 .index-paragraph {
     font-size: 19px;
     color: white;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.index-paragraph_2 {
+    font-size: 19px;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 /*CSS for projects page*/

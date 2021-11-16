@@ -1,0 +1,47 @@
+/*Smaller to larger mobile phones*/
+
+@media only screen and (max-width:480px) {
+    .main-header {
+        font-size: 30px;
+    }
+    .main-header-1 {
+        font-size: 30px;
+    }
+    .list-item_1, .list-item_2, .list-item_3 {
+        font-size: 14px;
+    }
+
+    .image {
+        margin: 25px 25px 0 25px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .index-paragraph {
+        font-size: 14px;
+        margin: 15px 25px 15px 0;
+    }
+    .index-paragraph_2 {
+        font-size: 14px;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+    .projects-info-item:link,
+    .projects-info-item:visited {
+        font-size: 20px;
+    }
+    .projects-info-item:active,
+    .projects-info-item:hover {
+        font-size: 20px;
+    }
+
+    .contact-paragraph {
+        font-size: 14px;
+    }
+
+    .sm-logo {
+        margin-top: 20px;
+        font-size: 70px;
+    }
+}
