@@ -1,3 +1,16 @@
+/*Big tablets or smaller laptop screens*/
+
+@media only screen and (max-width:1200px) {
+
+}
+
+/*Smaller tablets to larger tablets*/
+
+@media only screen and (max-width:1023px) {
+
+}
+
+
 /*Larger phones to smaller tablets*/
 
 @media only screen and (max-width:767px) {
@@ -50,13 +63,13 @@
 
 @media only screen and (max-width:480px) {
     .main-header {
-        font-size: 30px;
+        font-size: 26px;
     }
     .main-header-1 {
-        font-size: 30px;
+        font-size: 26px;
     }
     .list-item_1, .list-item_2, .list-item_3 {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .image {
@@ -66,26 +79,26 @@
     }
 
     .index-paragraph {
-        font-size: 14px;
+        font-size: 12px;
         margin: 15px 25px 15px 0;
     }
     .index-paragraph_2 {
-        font-size: 14px;
+        font-size: 12px;
         margin-right: 25px;
         margin-left: 25px;
     }
 
     .projects-info-item:link,
     .projects-info-item:visited {
-        font-size: 20px;
+        font-size: 18px;
     }
     .projects-info-item:active,
     .projects-info-item:hover {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .contact-paragraph {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .sm-logo {
