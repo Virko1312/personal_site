@@ -68,6 +68,10 @@
     .main-header-1 {
         font-size: 26px;
     }
+    .list-item {
+        padding: 10px;
+    }
+
     .list-item_1, .list-item_2, .list-item_3 {
         font-size: 12px;
     }
@@ -90,11 +94,11 @@
 
     .projects-info-item:link,
     .projects-info-item:visited {
-        font-size: 18px;
+        font-size: 16px;
     }
     .projects-info-item:active,
     .projects-info-item:hover {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .contact-paragraph {
@@ -103,6 +107,6 @@
 
     .sm-logo {
         margin-top: 20px;
-        font-size: 70px;
+        font-size: 60px;
     }
 }
